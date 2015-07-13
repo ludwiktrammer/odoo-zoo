@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record model="ir.actions.act_window" id="action_animal">
+            <field name="name">Animals</field>
+            <field name="res_model">zoo.animal</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</openerp>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem name="ZOO" id="menu_zoo_root"/>
+        <menuitem name="Animal Management" parent="menu_zoo_root"
+            id="menu_zoo_management"/>
+        <menuitem action="action_animal" parent="menu_zoo_management"
+            id="menu_zoo_animals"/>
+    </data>
+</openerp>
